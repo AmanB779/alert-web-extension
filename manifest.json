@@ -1,0 +1,14 @@
+{
+  "name": "User Input Alert",
+  "version": "1.0",
+  "description": "A simple extension to take user input and display alert.",
+  "permissions": [],
+  "action": {
+    "default_icon": "popup/icon.png",
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "manifest_version": 3
+}
